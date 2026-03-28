@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SimuladorEcosistemas_FILE /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas)
+set(__QT_DEPLOY_TARGET_SimuladorEcosistemas_TYPE EXECUTABLE)
