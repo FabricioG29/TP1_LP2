@@ -233,6 +233,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   ".qtcreator/cmake-helper/qtcreator-project.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeSystem.cmake"
+  "/Users/fabriciogonzalez/SimuladorEcosistemas/recursos.qrc"
   )
 
 # The corresponding makefile is:
@@ -245,6 +246,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   ".qt/info_plist/SimuladorEcosistemas/Info.plist"
   "CMakeFiles/SimuladorEcosistemas_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/SimuladorEcosistemas_autogen.dir/AutoRcc_recursos_EWIEGA46WW_Info.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "SimuladorEcosistemas.app/Contents/MacOS"

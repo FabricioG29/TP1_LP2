@@ -61,11 +61,17 @@ void MainWindow::paintEvent(QPaintEvent *event){
 
             EntidadViva* entidad = ecosistema.getCelda(i, j);
             if(dynamic_cast<Planta*>(entidad)){
-                painter.fillRect(j*tamCelda+1, i*tamCelda+1, tamCelda-1, tamCelda-1, Qt::green);
-            } else if(dynamic_cast<Herbivoro*>(entidad)){
-                painter.fillRect(j*tamCelda+1, i*tamCelda+1, tamCelda-1, tamCelda-1, Qt::blue);
-            } else if(dynamic_cast<Carnivoro*>(entidad)){
-                painter.fillRect(j*tamCelda+1, i*tamCelda+1, tamCelda-1, tamCelda-1, Qt::red);
+                QPixmap img(":/bush.png");
+                painter.drawPixmap(j*tamCelda, i*tamCelda, tamCelda, tamCelda, img);
+            }
+            else if(dynamic_cast<Herbivoro*>(entidad)){
+                QPixmap img(":/conejo.png");
+                painter.drawPixmap(j*tamCelda, i*tamCelda, tamCelda, tamCelda, img);
+            }
+
+            else if(dynamic_cast<Carnivoro*>(entidad)){
+                QPixmap img(":/lobo.png");
+                painter.drawPixmap(j*tamCelda, i*tamCelda, tamCelda, tamCelda, img);
             }
         }
     }

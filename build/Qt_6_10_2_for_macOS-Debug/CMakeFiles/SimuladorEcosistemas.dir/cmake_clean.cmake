@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o.d"
   "CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o"
   "CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o.d"
+  "CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o"
+  "CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o.d"
   "CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o"
@@ -20,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o.d"
   "SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas"
   "SimuladorEcosistemas.pdb"
+  "SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp"
   "SimuladorEcosistemas_autogen/mocs_compilation.cpp"
   "SimuladorEcosistemas_autogen/timestamp"
 )

@@ -84,12 +84,12 @@ CMakeFiles/SimuladorEcosistemas.dir/all: CMakeFiles/SimuladorEcosistemas_autogen
 CMakeFiles/SimuladorEcosistemas.dir/all: CMakeFiles/SimuladorEcosistemas_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas.dir/build.make CMakeFiles/SimuladorEcosistemas.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas.dir/build.make CMakeFiles/SimuladorEcosistemas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target SimuladorEcosistemas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target SimuladorEcosistemas"
 .PHONY : CMakeFiles/SimuladorEcosistemas.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimuladorEcosistemas.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SimuladorEcosistemas.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/SimuladorEcosistemas.dir/rule
@@ -136,7 +136,7 @@ CMakeFiles/SimuladorEcosistemas_autogen_timestamp_deps.dir/clean:
 CMakeFiles/SimuladorEcosistemas_autogen.dir/all: CMakeFiles/SimuladorEcosistemas_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas_autogen.dir/build.make CMakeFiles/SimuladorEcosistemas_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas_autogen.dir/build.make CMakeFiles/SimuladorEcosistemas_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=11 "Built target SimuladorEcosistemas_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=13 "Built target SimuladorEcosistemas_autogen"
 .PHONY : CMakeFiles/SimuladorEcosistemas_autogen.dir/all
 
 # Build rule for subdir invocation for target.

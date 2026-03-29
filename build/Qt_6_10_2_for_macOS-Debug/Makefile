@@ -296,6 +296,30 @@ Planta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas.dir/build.make CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.s
 .PHONY : Planta.cpp.s
 
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.o: SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o
+.PHONY : SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.o
+
+# target to build an object file
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas.dir/build.make CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o
+.PHONY : SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o
+
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.i: SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.i
+.PHONY : SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.i
+
+# target to preprocess a source file
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas.dir/build.make CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.i
+.PHONY : SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.i
+
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.s: SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.s
+.PHONY : SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.s
+
+# target to generate assembly for a file
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimuladorEcosistemas.dir/build.make CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.s
+.PHONY : SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.s
+
 SimuladorEcosistemas_autogen/mocs_compilation.o: SimuladorEcosistemas_autogen/mocs_compilation.cpp.o
 .PHONY : SimuladorEcosistemas_autogen/mocs_compilation.o
 
@@ -419,6 +443,9 @@ help:
 	@echo "... Planta.o"
 	@echo "... Planta.i"
 	@echo "... Planta.s"
+	@echo "... SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.o"
+	@echo "... SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.i"
+	@echo "... SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.s"
 	@echo "... SimuladorEcosistemas_autogen/mocs_compilation.o"
 	@echo "... SimuladorEcosistemas_autogen/mocs_compilation.i"
 	@echo "... SimuladorEcosistemas_autogen/mocs_compilation.s"

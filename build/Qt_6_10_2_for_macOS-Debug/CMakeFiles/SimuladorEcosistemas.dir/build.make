@@ -76,10 +76,20 @@ SimuladorEcosistemas_autogen/timestamp: CMakeFiles/SimuladorEcosistemas.dir/comp
 	/Users/fabriciogonzalez/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/SimuladorEcosistemas_autogen.dir/AutogenInfo.json Debug
 	/Users/fabriciogonzalez/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/SimuladorEcosistemas_autogen/timestamp
 
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp: /Users/fabriciogonzalez/SimuladorEcosistemas/recursos.qrc
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp: CMakeFiles/SimuladorEcosistemas_autogen.dir/AutoRcc_recursos_EWIEGA46WW_Info.json
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp: /Users/fabriciogonzalez/SimuladorEcosistemas/bush.png
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp: /Users/fabriciogonzalez/SimuladorEcosistemas/conejo.png
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp: /Users/fabriciogonzalez/SimuladorEcosistemas/lobo.png
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp: /Users/fabriciogonzalez/Qt/6.10.2/macos/libexec/rcc
+SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp: /Users/fabriciogonzalez/Qt/6.10.2/macos/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for recursos.qrc"
+	/Users/fabriciogonzalez/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autorcc /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/SimuladorEcosistemas_autogen.dir/AutoRcc_recursos_EWIEGA46WW_Info.json Debug
+
 CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o: SimuladorEcosistemas_autogen/mocs_compilation.cpp
 CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/SimuladorEcosistemas_autogen/mocs_compilation.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.i: cmake_force
@@ -93,7 +103,7 @@ CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilatio
 CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o: /Users/fabriciogonzalez/SimuladorEcosistemas/main.cpp
 CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/main.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/main.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/main.cpp.i: cmake_force
@@ -107,7 +117,7 @@ CMakeFiles/SimuladorEcosistemas.dir/main.cpp.s: cmake_force
 CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o: /Users/fabriciogonzalez/SimuladorEcosistemas/mainwindow.cpp
 CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/mainwindow.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.i: cmake_force
@@ -121,7 +131,7 @@ CMakeFiles/SimuladorEcosistemas.dir/mainwindow.cpp.s: cmake_force
 CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o: /Users/fabriciogonzalez/SimuladorEcosistemas/Entidad_Viva.cpp
 CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/Entidad_Viva.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.i: cmake_force
@@ -135,7 +145,7 @@ CMakeFiles/SimuladorEcosistemas.dir/Entidad_Viva.cpp.s: cmake_force
 CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o: /Users/fabriciogonzalez/SimuladorEcosistemas/Planta.cpp
 CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/Planta.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.i: cmake_force
@@ -149,7 +159,7 @@ CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.s: cmake_force
 CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o: /Users/fabriciogonzalez/SimuladorEcosistemas/Herbivoro.cpp
 CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/Herbivoro.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.i: cmake_force
@@ -163,7 +173,7 @@ CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.s: cmake_force
 CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o: /Users/fabriciogonzalez/SimuladorEcosistemas/Carnivoro.cpp
 CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/Carnivoro.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.i: cmake_force
@@ -177,7 +187,7 @@ CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.s: cmake_force
 CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
 CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o: /Users/fabriciogonzalez/SimuladorEcosistemas/ecosistema.cpp
 CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/ecosistema.cpp
 
 CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.i: cmake_force
@@ -188,6 +198,20 @@ CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fabriciogonzalez/SimuladorEcosistemas/ecosistema.cpp -o CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.s
 
+CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/flags.make
+CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o: SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp
+CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o: CMakeFiles/SimuladorEcosistemas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o -MF CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o.d -o CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o -c /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp
+
+CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp > CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.i
+
+CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp -o CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.s
+
 # Object files for target SimuladorEcosistemas
 SimuladorEcosistemas_OBJECTS = \
 "CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/mocs_compilation.cpp.o" \
@@ -197,7 +221,8 @@ SimuladorEcosistemas_OBJECTS = \
 "CMakeFiles/SimuladorEcosistemas.dir/Planta.cpp.o" \
 "CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o" \
 "CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o" \
-"CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o"
+"CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o" \
+"CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o"
 
 # External object files for target SimuladorEcosistemas
 SimuladorEcosistemas_EXTERNAL_OBJECTS =
@@ -210,12 +235,13 @@ SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: CMakeFiles/Simulad
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: CMakeFiles/SimuladorEcosistemas.dir/Herbivoro.cpp.o
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: CMakeFiles/SimuladorEcosistemas.dir/Carnivoro.cpp.o
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: CMakeFiles/SimuladorEcosistemas.dir/ecosistema.cpp.o
+SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: CMakeFiles/SimuladorEcosistemas.dir/SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp.o
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: CMakeFiles/SimuladorEcosistemas.dir/build.make
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: /Users/fabriciogonzalez/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: /Users/fabriciogonzalez/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/QtGui
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: /Users/fabriciogonzalez/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/QtCore
 SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas: CMakeFiles/SimuladorEcosistemas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable SimuladorEcosistemas.app/Contents/MacOS/SimuladorEcosistemas"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimuladorEcosistemas.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -226,6 +252,7 @@ CMakeFiles/SimuladorEcosistemas.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/SimuladorEcosistemas.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/SimuladorEcosistemas.dir/clean
 
+CMakeFiles/SimuladorEcosistemas.dir/depend: SimuladorEcosistemas_autogen/EWIEGA46WW/qrc_recursos.cpp
 CMakeFiles/SimuladorEcosistemas.dir/depend: SimuladorEcosistemas_autogen/timestamp
 	cd /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fabriciogonzalez/SimuladorEcosistemas /Users/fabriciogonzalez/SimuladorEcosistemas /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug /Users/fabriciogonzalez/SimuladorEcosistemas/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/SimuladorEcosistemas.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimuladorEcosistemas.dir/depend

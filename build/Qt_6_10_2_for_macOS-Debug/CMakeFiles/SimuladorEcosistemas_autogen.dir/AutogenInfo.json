@@ -354,7 +354,8 @@
 		"/Users/fabriciogonzalez/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"/Users/fabriciogonzalez/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"/Users/fabriciogonzalez/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
-		"/Users/fabriciogonzalez/Qt/6.10.2/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
+		"/Users/fabriciogonzalez/Qt/6.10.2/macos/lib/cmake/Qt6/macos/Info.plist.app.in",
+		"/Users/fabriciogonzalez/SimuladorEcosistemas/recursos.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/fabriciogonzalez/SimuladorEcosistemas",
 	"CROSS_CONFIG" : false,
