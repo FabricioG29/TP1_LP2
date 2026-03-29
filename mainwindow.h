@@ -11,12 +11,14 @@ class MainWindow;
 }
 QT_END_NAMESPACE
 
+// Clase principal de la interfaz grafica
+// Se encarga de mostrar la matriz, los contadores y conectar los botones con la logica del ecosistema
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-
 protected:
+    // Se llama automaticamente cada vez que Qt necesita redibujar la ventana
     void paintEvent(QPaintEvent *event) override;
 
 public:
@@ -24,21 +26,21 @@ public:
     ~MainWindow() override;
 
 public slots:
-    void onIniciar();
-    void onPausar();
-    void onReiniciar();
-    void onTick();
+    void onIniciar();    // Inicia la simulacion arrancando el timer
+    void onPausar();     // Pausa la simulacion deteniendo el timer
+    void onReiniciar();  // Reinicia el ecosistema al estado inicial
+    void onTick();       // Se ejecuta en cada tick del timer (un ciclo de simulacion)
 
 private slots:
-    void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
-
-    void on_pushButton_3_clicked();
+    // Slots conectados automáticamente a los botones del diseñador visual
+    void on_pushButton_clicked();    // Boton Iniciar
+    void on_pushButton_2_clicked();  // Boton Pausar
+    void on_pushButton_3_clicked();  // Boton Reiniciar
 
 private:
-    Ui::MainWindow *ui;
-    Ecosistema ecosistema;
-    QTimer* timer;
+    Ui::MainWindow *ui;       // Interfaz grafica generada por Qt
+    Ecosistema ecosistema;    // Logica del ecosistema (separada de la interfaz)
+    QTimer* timer;            // Timer que controla el avance automatico de ciclos
 };
+
 #endif // MAINWINDOW_H
