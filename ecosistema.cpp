@@ -137,10 +137,18 @@ void Ecosistema::flujo_tiempo(){
             if(dynamic_cast<Herbivoro*>(matriz[i][j]) != nullptr){
                 bool comio = false;  // resetea para cada herbívoro
 
+                int orden[] = {0, 1, 2, 3};
+                for(int x = 3; x > 0; x--){
+                    int r = rand() % (x+1);
+                    int temp = orden[x];
+                    orden[x] = orden[r];
+                    orden[r] = temp;
+                }
+
                 // busca planta vecina
                 for(int k = 0; k < 4; k++){
-                    int ni = i + df[k];
-                    int nj = j + dc[k];
+                    int ni = i + df[orden[k]];
+                    int nj = j + dc[orden[k]];
                     if(ni >= 0 && ni < filas && nj >= 0 && nj < columnas){
                         if(dynamic_cast<Planta*>(matriz[ni][nj]) != nullptr){
                             delete matriz[ni][nj];
@@ -156,8 +164,8 @@ void Ecosistema::flujo_tiempo(){
                 // si no comió, se mueve a celda vacía
                 if(!comio){
                     for(int k = 0; k < 4; k++){
-                        int ni = i + df[k];
-                        int nj = j + dc[k];
+                        int ni = i + df[orden[k]];
+                        int nj = j + dc[orden[k]];
                         if(ni >= 0 && ni < filas && nj >= 0 && nj < columnas){
                             if(matriz[ni][nj] == nullptr){
                                 matriz[ni][nj] = matriz[i][j];
@@ -181,10 +189,18 @@ void Ecosistema::flujo_tiempo(){
             if(dynamic_cast<Carnivoro*>(matriz[i][j]) != nullptr){
                 bool comio = false;  // Se resetea para cada carnivoro
 
+                int orden[] = {0, 1, 2, 3};
+                for(int x = 3; x > 0; x--){
+                    int r = rand() % (x+1);
+                    int temp = orden[x];
+                    orden[x] = orden[r];
+                    orden[r] = temp;
+                }
+
                 // busca herbivoro vecino
                 for(int k = 0; k < 4; k++){
-                    int ni = i + df[k];
-                    int nj = j + dc[k];
+                    int ni = i + df[orden[k]];
+                    int nj = j + dc[orden[k]];
                     if(ni >= 0 && ni < filas && nj >= 0 && nj < columnas){
                         if(dynamic_cast<Herbivoro*>(matriz[ni][nj]) != nullptr){
                             delete matriz[ni][nj];
@@ -200,8 +216,8 @@ void Ecosistema::flujo_tiempo(){
                 // si no comio, se mueve a celda vacia
                 if(!comio){
                     for(int k = 0; k < 4; k++){
-                        int ni = i + df[k];
-                        int nj = j + dc[k];
+                        int ni = i + df[orden[k]];
+                        int nj = j + dc[orden[k]];
                         if(ni >= 0 && ni < filas && nj >= 0 && nj < columnas){
                             if(matriz[ni][nj] == nullptr){
                                 matriz[ni][nj] = matriz[i][j];
@@ -219,7 +235,7 @@ void Ecosistema::flujo_tiempo(){
     for(int i = 0; i < filas ; i++){
         for(int j = 0; j < columnas; j++){
              if(dynamic_cast<Planta*>(matriz[i][j]) != nullptr){
-                if(rand() % 100 < 5){  // 30% de probabilidad
+                if(rand() % 100 < 10){  // 30% de probabilidad
                      // busca planta vecina
                      for(int k = 0; k < 4; k++){
                          int ni = i + df[k];

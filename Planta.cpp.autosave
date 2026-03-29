@@ -1,0 +1,10 @@
+#include "Planta.h"
+
+// Funcion para la forma de actuar de la planta
+void Planta :: actuar (){
+    edad++;  // Por 
+    if (edad >= 20){
+        estado = false;
+    }
+
+}
