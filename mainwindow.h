@@ -22,7 +22,7 @@ protected:
     void paintEvent(QPaintEvent *event) override;
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(int filas, int columnas, int tema, QWidget *parent = nullptr);
     ~MainWindow() override;
 
 public slots:
@@ -41,6 +41,10 @@ private:
     Ui::MainWindow *ui;       // Interfaz grafica generada por Qt
     Ecosistema ecosistema;    // Logica del ecosistema (separada de la interfaz)
     QTimer* timer;            // Timer que controla el avance automatico de ciclos
+
+    int filasTablero;         // Cantidad de filas elegidas por el usuario
+    int columnasTablero;      // Cantidad de columnas elegidas por el usuario
+    int temaSeleccionado;     // 0 = Bosque, 1 = Pradera
 };
 
 #endif // MAINWINDOW_H

@@ -88,7 +88,7 @@ EntidadViva* Ecosistema::getCelda(int fila, int col){
 }
 
 // Avanza un ciclo de simulacion: hace actuar a todas las entidades,
-// elimina las muertas y aplica movimiento, alimentacion y reproduccion
+// Elimina las muertas y aplica movimiento, alimentacion y reproduccion
 void Ecosistema::flujo_tiempo(){
     ciclo++;
 

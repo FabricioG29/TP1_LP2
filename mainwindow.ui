@@ -7,8 +7,59 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>519</height>
+    <height>800</height>
    </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>2</red>
+        <green>2</green>
+        <blue>2</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>2</red>
+        <green>2</green>
+        <blue>2</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>2</red>
+        <green>2</green>
+        <blue>2</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>2</red>
+        <green>2</green>
+        <blue>2</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled/>
+   </palette>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -17,92 +68,131 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>430</y>
-      <width>100</width>
-      <height>32</height>
+      <x>160</x>
+      <y>670</y>
+      <width>137</width>
+      <height>69</height>
      </rect>
     </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
     <property name="text">
-     <string>Iniciar</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>430</y>
-      <width>100</width>
-      <height>32</height>
+      <x>342</x>
+      <y>670</y>
+      <width>129</width>
+      <height>69</height>
      </rect>
     </property>
     <property name="text">
-     <string>Pausar</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>430</y>
-      <width>100</width>
-      <height>32</height>
+      <x>517</x>
+      <y>670</y>
+      <width>136</width>
+      <height>68</height>
      </rect>
     </property>
     <property name="text">
-     <string>Reiniciar</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_plantas">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>410</y>
+      <x>170</x>
+      <y>620</y>
       <width>101</width>
-      <height>16</height>
+      <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
-     <string>Plantas : 0</string>
+     <string>PLANTAS : 0</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_herbivoros">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>410</y>
-      <width>101</width>
-      <height>16</height>
+      <x>290</x>
+      <y>620</y>
+      <width>131</width>
+      <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>Herbivoros: 0</string>
+     <string>HERVIBOROS : 0</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_Carnivoros">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>410</y>
-      <width>101</width>
-      <height>16</height>
+      <x>430</x>
+      <y>614</y>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>Carnivoros: 0</string>
+     <string>CARNIVOROS : 0</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_Ciclo">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>410</y>
-      <width>58</width>
-      <height>16</height>
+      <x>570</x>
+      <y>620</y>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
     <property name="text">
-     <string>Ciclo: 0</string>
+     <string>CICLO : 0</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>
@@ -112,7 +202,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>33</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

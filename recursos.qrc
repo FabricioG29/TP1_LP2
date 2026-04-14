@@ -3,5 +3,11 @@
         <file>bush.png</file>
         <file>lobo.png</file>
         <file>conejo.png</file>
+        <file>ventana_inicial.png</file>
+        <file>fondo_tablero.png</file>
+        <file>oveja.png</file>
+        <file>pasto.png</file>
+        <file>ventana_triada.png</file>
+        <file>zorro.png</file>
     </qresource>
 </RCC>
