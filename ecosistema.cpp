@@ -227,3 +227,20 @@ void Ecosistema::flujo_tiempo(){
         }
     }
 }
+
+// Funcion que verifica si queda alguna entidad en el tablero
+// Devuelve true si hay alguna entidad viva y false si no hay ninguna
+bool Ecosistema::quedan_entidades() const
+{
+    for (int i = 0; i < filas; i++)
+    {
+        for (int j = 0; j < columnas; j++)
+        {
+            if (matriz[i][j] != nullptr)
+            {
+                return true;
+            }
+        }
+    }
+    return false;
+}

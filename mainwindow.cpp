@@ -4,6 +4,7 @@
 #include "Herbivoro.h"
 #include "Carnivoro.h"
 #include <QPainter>
+#include <QMessageBox>
 
 // Constructor: inicializa la ventana con el tamaño y tema elegidos
 MainWindow::MainWindow(int filas, int columnas, int tema, QWidget *parent)
@@ -41,7 +42,7 @@ MainWindow::MainWindow(int filas, int columnas, int tema, QWidget *parent)
 
 // Inicia la simulacion: el timer dispara cada 500ms
 void MainWindow::onIniciar(){
-    timer->start(500);
+    timer->start(250);
 }
 
 // Pausa la simulacion: detiene el timer sin perder el estado actual
@@ -65,13 +66,24 @@ void MainWindow::onReiniciar(){
 // Se ejecuta en cada tick del timer: avanza un ciclo y actualiza la interfaz
 void MainWindow::onTick(){
     ecosistema.flujo_tiempo();
-    update();
 
     //Actualiza los datos en la pantalla
     ui->label_plantas->setText("PLANTAS: " + QString::number(ecosistema.getCantPlantas()));
     ui->label_herbivoros->setText("HERBIVOROS: " + QString::number(ecosistema.getCantHerbivoros()));
     ui->label_Carnivoros->setText("CARNIVOROS: " + QString::number(ecosistema.getCantCarnivoros()));
     ui->label_Ciclo->setText("CICLO: " + QString::number(ecosistema.getCiclo()));
+
+    update();
+
+    // Repintado inmediato de qt
+    QApplication::processEvents();
+
+    if(!ecosistema.quedan_entidades()) {
+        timer->stop();
+        QMessageBox::information(this, "Fin del juego", "No quedan entidades en el tablero");
+        this->close(); // cierra la ventana
+        return;
+    }
 }
 
 // Dibuja la matriz en cada actualizacion visual

@@ -30,6 +30,7 @@ public:
 
     void flujo_tiempo();  // Funcion para la simulacion de las Entidades y de los ciclos
     void reiniciar(); // Funcion para reiniciar la simulacion
+    bool quedan_entidades() const; // Funcion que verifica si quedan entidades en el ecosistema
 
 };
 
